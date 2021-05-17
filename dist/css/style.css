@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 40px 80px 0px 80px;
+  background-image: url("../images/background.png");
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav .logo p a {
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+header nav .links {
+  display: flex;
+}
+
+header nav .links li {
+  padding-right: 20px;
+  font-family: 'Roboto',serif;
+  color: #fff;
+  list-style: none;
+  cursor: pointer;
+}
+
+header nav .links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .section-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .section-top .text {
+  margin-top: 11rem;
+}
+
+header .section-top .text .hero-text {
+  color: #fff;
+  font-size: 4rem;
+}
+
+header .section-top .text .text-medium {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  width: 18rem;
+}
+
+header .section-top .text .section-top-btns button {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  font-family: 'Roboto',serif;
+  color: #fff;
+  border-radius: 2rem;
+  outline: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+header .section-top .text .section-top-btns .btn-y {
+  background-color: #D0A144;
+}
+
+header .section-top .text .section-top-btns .btn-t {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+header .section-top .pic-top img {
+  margin-top: 3rem;
+  margin-right: 2rem;
+  height: 30rem;
+}

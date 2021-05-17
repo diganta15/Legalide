@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+*{
+    padding: 0;
+    margin: 0
+}
+header{
+    padding: 40px 80px 0px 80px;
+    background-image: url('../images/background.png');
+ nav{
+     display: flex;
+    justify-content: space-between;
+
+    .logo{
+        p{
+            a{
+                color: #fff;
+            font-size: 1.3rem;
+            text-decoration: none;
+            }
+        }
+    }
+    .links{
+        display: flex;
+       
+        li{
+            padding-right: 20px;
+            font-family: 'Roboto',serif;
+            color: #fff;
+            list-style: none;
+            cursor: pointer;
+            a{
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        
+    }
+ }
+    .section-top{
+        display: flex;
+        justify-content: space-between;
+        
+
+        .text{
+            margin-top: 11rem;
+            .hero-text{
+                color: #fff;
+                font-size: 4rem;
+            }
+            .text-medium{
+                font-family: 'Roboto',sans-serif;
+                font-weight: 300;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+                color: #fff;
+                width: 18rem;
+            }
+            .section-top-btns{
+                button{
+                    padding: 0.5rem 2rem 0.5rem 2rem;
+                    font-family: 'Roboto',serif;
+                    color: #fff;
+                    border-radius: 2rem;
+                    outline: transparent;
+                    border: none;
+                    cursor: pointer;
+                }
+                .btn-y{
+                    background-color: #D0A144;
+                }
+                .btn-t{
+                    background-color: transparent;
+                    border: 1px solid #fff;
+                }
+            }
+        }
+        .pic-top{
+            img{
+                margin-top: 3rem;
+                margin-right: 2rem;
+                
+                height: 30rem;
+            }
+        }
+    }
+}
