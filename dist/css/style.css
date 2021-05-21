@@ -398,6 +398,7 @@ header .section-top .pic-top img {
 .contact {
   margin: 6rem 11rem 0rem 11rem;
   justify-content: space-between;
+  padding-bottom: 2rem;
 }
 
 .contact div {
@@ -425,4 +426,76 @@ header .section-top .pic-top img {
 .contact a li {
   list-style: none;
   font-family: 'Roboto',sans-serif;
+}
+
+footer .footer-top {
+  background-image: linear-gradient(to right, #295C7A, #0072B5);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 2rem 10rem;
+}
+
+footer .footer-top .item p {
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Newsreader',sans-serif;
+  padding-bottom: 0.8rem;
+}
+
+footer .footer-top .item ul li {
+  cursor: pointer;
+  list-style: none;
+  color: #fff;
+  font-family: 'Roboto',serif;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+footer .footer-top .item:nth-child(5) span {
+  display: flex;
+  cursor: pointer;
+}
+
+footer .footer-top .item:nth-child(5) span i {
+  color: #8EC2F2;
+  padding-right: 4px;
+}
+
+footer .footer-top .item:nth-child(5) span p {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+footer .footer-bottom {
+  background-color: #252B42;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 10rem;
+}
+
+footer .footer-bottom div p {
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Roboto',sans-serif;
+}
+
+footer .footer-bottom .icons {
+  font-size: 1.6rem;
+}
+
+footer .footer-bottom .icons i:nth-child(1) {
+  color: #335BF5;
+}
+
+footer .footer-bottom .icons i:nth-child(2) {
+  color: #E51F5A;
+}
+
+footer .footer-bottom .icons i:nth-child(3) {
+  color: #21A6DF;
+}
+
+footer .footer-bottom .icons i:nth-child(4) {
+  color: #E42F08;
 }
