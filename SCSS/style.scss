@@ -14,7 +14,9 @@ header {
   nav {
     display: flex;
     justify-content: space-between;
-
+    .mob{
+      display: none;
+    }
     .logo {
       p {
         a {
@@ -183,7 +185,7 @@ header {
             color: #737373;
           }
           img {
-            width: 13.6rem;
+            width: 100%;
             position: absolute;
             bottom: 0px;
             left: 0px;
@@ -480,20 +482,48 @@ footer{
       nav{
         background-color: #252B42;
         padding: 10px 20px 10px 20px;
-        
+        position: relative;
         .logo{
          
         }
+      
         .link{
           display: none;
+         
+         
           
+        }
+        .mob{
+          // display: flex;
+          top: 2.4rem;
+          left: 0;
+          width: 100%;
+          height: 6rem;
+          background-color: #252B42;
+          position: absolute;
+          color: #000;
+    
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+          padding-bottom: 3rem;
+          padding-top: 3rem;
+          line-height: 2rem;
+          a{
+           text-decoration: none;
+            color: #fff;
+            font-size: 1.3rem;
+            font-family: 'Roboto',sans-serif;
+            align-self: center;
+          }
         }
         .menu{
           display: block !important;
         }
-       
+      
       }
       .section-top{
+        
         flex-direction: column;
         justify-content: space-evenly;
        
@@ -652,6 +682,10 @@ footer{
         .newsletter{
           flex-direction: column;
           margin: 4rem 1rem;
+
+          button{
+            height: 3rem;
+          }
         }
         .touch{
           margin-top: 2rem !important;
